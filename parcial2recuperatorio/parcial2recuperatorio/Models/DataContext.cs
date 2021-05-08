@@ -12,5 +12,7 @@ namespace parcial2recuperatorio.Models
         {
 
         }
+
+        public System.Data.Entity.DbSet<parcial2recuperatorio.Models.city> cities { get; set; }
     }
 }
