@@ -8,7 +8,7 @@ namespace parcial2recuperatorio.Models
 {
     public class DataContext:DbContext
     {
-        public DataContext():base("")
+        public DataContext():base("DefaultConnection")
         {
 
         }
